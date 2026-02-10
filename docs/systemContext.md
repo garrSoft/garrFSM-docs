@@ -165,7 +165,7 @@ Deploy process
     ├─ .env
     ├─ .env.example
     ├─ .gitignore
-    └─ compose.yml
+    └─ compose.prod.yml
 <!-- TREE:END -->
 
 ---
@@ -181,7 +181,7 @@ Deploy process
   - `garrcon_demo` — legacy demo DB inside prod container (present, not used for current dev/demo stack)
 
 ### Dev/demo database (fully separated)
-- Container: `garrdev-db_dev-1`
+- Container: `garr-dev-db-1`
 - Port: Not publicly exposed
 - Databases:
   - `garrcon_demo` — dev/demo data (authoritative for the dev/demo API)
